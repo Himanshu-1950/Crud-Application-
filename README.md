@@ -84,7 +84,8 @@ employee-crud-app/
 ## 📷 Screenshots
 
 ### ➕ Add Employee Page  
-Add Employee![Screenshot 2025-04-10 202640](https://github.com/user-attachments/assets/2c287246-d168-4484-99a1-50c3f4da63e8)
+Add Employee![Screenshot 2025-04-11 212242](https://github.com/user-attachments/assets/682886f1-12ff-4e91-9f98-3aa1e282b246)
+
 
 
 
