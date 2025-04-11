@@ -42,20 +42,20 @@
                         {% csrf_token %}
                         <table class="table table-borderless align-middle">
                             <tr>
-                                <th><b><label for="id_eid">Employee ID</label></b></th>
-                                <td>{{ form.eid }}</td>
+                                <th><b><label for="eid">Employee ID</label></b></th>
+                                <td><input type="text" id="eid" name="eid" class="form-control" required></td>
                             </tr>
                             <tr>
-                                <th><b><label for="id_ename">Full Name</label></b></th>
-                                <td>{{ form.ename }}</td>
+                                <th><b><label for="ename">Full Name</label></b></th>
+                                <td><input type="text" id="ename" name="ename" class="form-control" required></td>
                             </tr>
                             <tr>
-                                <th><b><label for="id_eemail">Email Address</label></th></b>
-                                <td>{{ form.eemail }}</td>
+                                <th><b><label for="eemail">Email Address</label></b></th>
+                                <td><input type="email" id="eemail" name="eemail" class="form-control" required></td>
                             </tr>
                             <tr>
-                                <th><b><label for="id_econtact">Contact No.</label></b></th>
-                                <td>{{ form.econtact }}</td>
+                                <th><b><label for="econtact">Contact No.</label></b></th>
+                                <td><input type="text" id="econtact" name="econtact" class="form-control" required></td>
                             </tr>
                             <tr>
                                 <td colspan="2" class="text-center">
